@@ -9,6 +9,7 @@ on:
     branches: ["main"]
     paths:
       - '**.go'
+  workflow_dispatch:
 
 jobs:
   linux_amd64_build:
